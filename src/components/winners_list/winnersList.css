@@ -1,0 +1,40 @@
+.winners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+select {
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+ }
+ select::-ms-expand {
+    display: none;
+ }
+
+@media screen and (max-width: 750px) {
+    .winners-list {
+        padding: 0;
+    }
+}

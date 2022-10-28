@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-color: #ADE5F9;
+}
+
+.title {
+  padding: 10px;
+  font-size: 3rem;
+  font-family: 'poppins';
+}
